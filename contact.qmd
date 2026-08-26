@@ -1,0 +1,24 @@
+---
+title: "Need a hand?"
+date-modified: last-modified
+toc: false
+---
+
+Please call us — we would much rather help than have you guess.
+
+| | |
+|---|---|
+| **Study contact** | [NAME] |
+| **Phone** | [PHONE NUMBER] |
+| **Email** | [a.bach@griffith.edu.au](mailto:a.bach@griffith.edu.au) |
+| **Available** | [DAYS AND HOURS] |
+
+## About the study
+
+*Can a mattress topper preserve nocturnal autonomic function in older adults during summer? A randomised crossover trial* is being conducted by Griffith University and has been approved by the Griffith University Human Research Ethics Committee (GU Ref No: HREC/2026/0662).
+
+If you have any concerns or complaints about the ethical conduct of the research project, you can contact the Senior Manager, Research Ethics Integrity and Governance on (07) 3735 4375 or [research-ethics@griffith.edu.au](mailto:research-ethics@griffith.edu.au).
+
+::: {.callout-warning title="If you feel unwell"}
+The Fitbit is a consumer wellness device, not a medical device, and its readings are not a diagnosis. If a notification concerns you, or you feel unwell at any time during the study, please see your GP, or call **000** in an emergency.
+:::

@@ -1,0 +1,8 @@
+::: {.callout-tip title="Need a hand?"}
+Please call us — we would much rather help than have you guess.
+
+**Study contact:** [NAME]<br>
+**Phone:** [PHONE NUMBER]<br>
+**Email:** [a.bach@griffith.edu.au](mailto:a.bach@griffith.edu.au)<br>
+**Available:** [DAYS AND HOURS]
+:::

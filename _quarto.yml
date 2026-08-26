@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages serves from /docs on the main branch
+
+website:
+  title: "Sleep Pod Study — Participant Guide"
+  description: "Set-up instructions for the Griffith University mattress topper study (HREC/2026/0662)"
+  favicon: images/fitbit-tracker.png
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: "Need a hand?"
+        href: contact.qmd
+  sidebar:
+    style: docked
+    collapse-level: 1
+    contents:
+      - text: "Start here"
+        href: index.qmd
+      - section: "Setting up"
+        contents:
+          - fitbit.qmd
+          - temperature-sensor.qmd
+          - mattress-topper.qmd
+      - section: "Finishing the study"
+        contents:
+          - returning-equipment.qmd
+      - text: "Need a hand?"
+        href: contact.qmd
+  page-footer:
+    left: "Griffith University · HREC/2026/0662"
+    right: "Last updated {{< meta date-modified >}}"
+  page-navigation: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-title: "On this page"
+    toc-depth: 2
+    fontsize: 1.1em          # slightly larger text for older readers
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex">

@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+$primary: #1d4a5c;          // deep teal used in the printed guides
+$link-color: #1d4a5c;
+$font-family-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-color: #1d4a5c;
+$sidebar-fg: #1d4a5c;
+
+/*-- scss:rules --*/
+h1.title { font-weight: 700; }
+h2 { border-bottom: 2px solid #1d4a5c; padding-bottom: .25rem; margin-top: 2.5rem; }
