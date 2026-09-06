@@ -5,13 +5,7 @@ date-modified: last-modified
 ---
 
 ::: {.callout-note}
-Only set up the mattress topper **after the research team has called to tell you it is time**. It arrives separately from the rest of your equipment.
-:::
-
-::: {.video-placeholder}
-**Video: Setting up the mattress topper (coming soon)**
-
-<!-- {{< video https://youtu.be/XXXXXXXX >}} -->
+Only set up the mattress topper **after the research team has called to tell you it is time**. It arrives separately from the rest of your equipment, closer to summer. These instructions are still being finalised, and the printed booklet in the topper's box will be the final version.
 :::
 
 ## Before you begin — items required
@@ -32,6 +26,10 @@ You will also need a jug of water and a power point within reach of the bed.
 
 ## Part 1 · Setting up the topper
 
+**Watch a short video of these steps:**
+
+{{< video https://www.youtube.com/embed/yTmGs2Mlupg >}}
+
 ::: {.step}
 ::: {.num}
 1
@@ -51,6 +49,8 @@ The topper lies flat, grey side up, with the tube end at the head or foot.
 :::
 ::: {.pic}
 ![](images/mattress-step1-bed.png)
+
+![](images/mattress-step1-photo.png)
 :::
 :::
 
@@ -149,16 +149,14 @@ The water level holds steady close to the top and the cap is back on.
 
 Use the two arrow buttons on the top of the control unit to set the temperature. The up arrow makes the bed warmer, the down arrow makes it cooler.
 
-We suggest starting somewhere between 16 and 20 degrees, but set it to whatever feels comfortable to you.
-
-Then make the bed as usual: waterproof protector over the topper, then your sheet on top.
+Then make the bed as usual, with your sheet over the topper.
 
 ::: {.worked}
 The display shows the temperature you set.
 :::
 :::
 ::: {.pic}
-![](images/mattress-step6-temp.png)
+![](images/mattress-step6-temp12.png)
 :::
 :::
 
@@ -169,6 +167,10 @@ Do not fold, sit on, or place heavy objects on the topper, and keep the tube cle
 ## Part 2 · Topping up the water
 
 The topper uses a little water over time, so the level in the tank slowly drops. The control unit tells you when it needs topping up.
+
+**Watch how it is done** (the top-up is at 26 seconds):
+
+{{< video https://www.youtube.com/embed/yTmGs2Mlupg?start=26 >}}
 
 ::: {.step}
 ::: {.num}

@@ -4,12 +4,6 @@ subtitle: "Temperature measurements"
 date-modified: last-modified
 ---
 
-::: {.video-placeholder}
-**Video: Setting up the temperature sensor (coming soon)**
-
-<!-- {{< video https://youtu.be/XXXXXXXX >}} -->
-:::
-
 ## Before you begin — items required
 
 These items are in your pack. Check each one is there. If anything is missing, call us before you start.
@@ -24,13 +18,17 @@ These items are in your pack. Check each one is there. If anything is missing, c
 ![Network cable](images/temp-network-cable.png)
 
 ![Temperature sensor](images/temp-sensor.png)
-
-![Spare battery](images/temp-spare-battery.png)
 :::
 
 You will also need a power point near your internet router, and a clear patch of wall in your bedroom.
 
 ## Part 1 · Connect the base station to your internet
+
+::: {.video-placeholder}
+**Video: Setting up the base station (coming soon)**
+
+<!-- {{< video https://www.youtube.com/embed/XXXXXXXX >}} -->
+:::
 
 ::: {.step}
 ::: {.num}
@@ -59,9 +57,9 @@ You can see a row of small square sockets on the back.
 ::: {.text}
 ### Plug the cable into the router
 
-Take the network cable from your pack. Plug one end into the socket on the back of the base station.
+Take the network cable from your pack. Plug one end into a spare socket on the back of your router.
 
-Plug the other end into a spare socket on the back of your router. The right sockets are labelled **LAN** and are often coloured yellow.
+The right sockets are labelled **LAN** and are often coloured yellow.
 
 Do not use the socket labelled **WAN** or **DSL**. Leave any cables that are already plugged in exactly where they are.
 
@@ -70,7 +68,11 @@ Both ends click into place and do not pull out easily.
 :::
 :::
 ::: {.pic}
-![](images/temp-step2-cable.png)
+![](images/temp-step2-lan.png)
+
+![](images/temp-step2-router1.png)
+
+![](images/temp-step2-router2.png)
 :::
 :::
 
@@ -79,9 +81,35 @@ Both ends click into place and do not pull out easily.
 3
 :::
 ::: {.text}
+### Plug the cables into the base station
+
+The base station has two sockets on the back. Turn it round so you can see them.
+
+Push the network cable into the wider socket on the right. It clicks when it is in.
+
+Push the small end of the charging cable into the socket on the left. Leave the other end of it loose for now.
+
+::: {.worked}
+Both cables are pushed all the way in.
+:::
+:::
+::: {.pic}
+![](images/temp-step3-sockets.png)
+
+![](images/temp-step3-plug.png)
+
+![](images/temp-step3-photo.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+4
+:::
+::: {.text}
 ### Turn the base station on
 
-Plug the base station's power adapter into a wall socket.
+Plug the loose end of the charging cable into the power adapter, then plug the adapter into a wall socket.
 
 Switch the socket on at the wall. On the front of the base station there is a row of small symbols. The exclamation mark on the left will light up red. This just means it has power — it has not found your internet yet.
 
@@ -90,13 +118,15 @@ The exclamation mark on the left is lit red.
 :::
 :::
 ::: {.pic}
-![](images/temp-step3-red.png)
+![](images/temp-step4-red.png)
+
+![](images/temp-step4-adapter-photo.png)
 :::
 :::
 
 ::: {.step}
 ::: {.num}
-4
+5
 :::
 ::: {.text}
 ### Wait one minute
@@ -110,7 +140,7 @@ The cloud symbol is lit green.
 :::
 :::
 ::: {.pic}
-![](images/temp-step4-green.png)
+![](images/temp-step5-green.png)
 :::
 :::
 
@@ -122,7 +152,7 @@ Do not unplug the base station or switch the socket off overnight. If it is unpl
 
 ::: {.step}
 ::: {.num}
-5
+6
 :::
 ::: {.text}
 ### Choose the right spot
@@ -138,23 +168,7 @@ The spot stays shaded all day and nothing blows air across it.
 :::
 :::
 ::: {.pic}
-![](images/temp-step5-spot.png)
-:::
-:::
-
-::: {.step}
-::: {.num}
-6
-:::
-::: {.text}
-### Peel off the paper backing
-
-The sensor sits in a white holder. Turn the holder over — near the top there are two sticky strips, each covered with a paper backing.
-
-Peel the paper off both strips. Try not to touch the sticky surfaces with your fingers — they hold better if you don't.
-:::
-::: {.pic}
-![](images/temp-step6-peel.png)
+![](images/temp-step6-spot.png)
 :::
 :::
 
@@ -163,9 +177,27 @@ Peel the paper off both strips. Try not to touch the sticky surfaces with your f
 7
 :::
 ::: {.text}
+### Peel off the paper backing
+
+Turn the holder over — two long strips run all the way down the back, each covered with a paper backing.
+
+Peel the paper off both strips. Try not to touch the sticky surfaces with your fingers — they hold better if you don't.
+:::
+::: {.pic}
+![](images/temp-step7-peel.png)
+
+![](images/temp-step7-peel-photo.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+8
+:::
+::: {.text}
 ### Press it onto the wall
 
-Press the holder firmly onto the wall so both sticky strips make full contact, and hold it there for about 30 seconds.
+Press the two prongs with the sticky strips flat onto the wall, not the front of the holder, and hold for 30 seconds.
 
 Then leave it alone for an hour before touching it again, so the adhesive can set. The sensor can stay clipped in the holder the whole time.
 
@@ -174,7 +206,55 @@ The holder stays put when you gently let go.
 :::
 :::
 ::: {.pic}
-![](images/temp-step7-press.png)
+![](images/temp-step8-press.png)
+
+![](images/temp-step8-press-photo.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+9
+:::
+::: {.text}
+### Pull out the plastic tab
+
+The sensor arrives with a small plastic tab sticking out of it. This keeps the battery from running down before you start.
+
+Take hold of the tab and pull it straight out. The sensor will beep once as it switches itself on.
+
+Throw the tab away. You will not need it again.
+
+::: {.worked}
+You heard the sensor beep, and the tab is out.
+:::
+:::
+::: {.pic}
+![](images/temp-step9-tab.png)
+
+![](images/temp-step9-tab-photo.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+10
+:::
+::: {.text}
+### Put the sensor into the holder
+
+Hold the holder steady with one hand and slide the sensor down into it from the top.
+
+The label goes at the top, facing you. Push it down until it sits flat in the holder.
+
+::: {.worked}
+The sensor sits in the holder and does not slide out.
+:::
+:::
+::: {.pic}
+![](images/temp-step10-insert.png)
+
+![](images/temp-step10-insert-photo.png)
 :::
 :::
 
@@ -184,11 +264,17 @@ The strips are paint-safe and will not mark your wall. If the holder does not st
 
 ## Part 3 · Changing the battery
 
-You do not need to check the battery yourself. We can see how much charge is left from our end, and if it starts running low we will call you and let you know it needs changing. **Nothing here is needed during set-up.**
+You do not need to check the battery yourself. We can see how much charge is left from our end. If it starts running low we will post you a spare battery and let you know it needs changing. **Nothing here is needed during set-up.**
+
+::: {.video-placeholder}
+**Video: Changing the sensor battery (coming soon)**
+
+<!-- {{< video https://www.youtube.com/embed/XXXXXXXX >}} -->
+:::
 
 ::: {.step}
 ::: {.num}
-8
+11
 :::
 ::: {.text}
 ### Take the sensor out of its holder
@@ -202,37 +288,53 @@ The sensor is in your hand and the holder is still on the wall.
 :::
 :::
 ::: {.pic}
-![](images/temp-step8-remove.png)
+![](images/temp-step11-remove.png)
 :::
 :::
 
 ::: {.step}
 ::: {.num}
-9
+12
 :::
 ::: {.text}
 ### Open the sensor
 
 You will need something thin and flat, such as a butter knife or a small flat screwdriver.
 
-There is a small gap in the top edge of the sensor, made for exactly this. Slide the flat edge into that gap and twist gently, then work around the edge until the outer cover comes away.
-
-Underneath there is a second white cover. Lift this one off as well, and you will see the circuit board with the battery on it.
+There is a small slot in the edge of the sensor, made for exactly this. Push the flat tip into the slot, then rotate the tool a quarter turn. Do not lever or lift it — the cover pops off as you turn.
 
 ::: {.worked}
-Both covers are off and you can see the round silver battery.
+The outer cover has come away.
 :::
 :::
 ::: {.pic}
-![](images/temp-step9-open.png)
+![](images/temp-step12-slot-photo.png)
 
-![](images/temp-step9-open2.png)
+![](images/temp-step12-cover-photo.png)
 :::
 :::
 
 ::: {.step}
 ::: {.num}
-10
+13
+:::
+::: {.text}
+### Take off the second cover
+
+Under the first cover is a second white cover. Take it off the same way — tip into the slot, then a quarter turn.
+
+::: {.worked}
+Both covers are off and the battery shows.
+:::
+:::
+::: {.pic}
+![](images/temp-step13-cover2-photo.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+14
 :::
 ::: {.text}
 ### Swap the battery
@@ -248,13 +350,13 @@ The new battery sits flat under both clips and you heard a beep.
 :::
 :::
 ::: {.pic}
-![](images/temp-step10-battery.png)
+![](images/temp-step14-battery-photo.png)
 :::
 :::
 
 ::: {.step}
 ::: {.num}
-11
+15
 :::
 ::: {.text}
 ### Close it and put it back
@@ -270,7 +372,7 @@ The sensor is back in its holder on the wall.
 :::
 :::
 ::: {.pic}
-![](images/temp-step11-close.png)
+![](images/temp-step15-close.png)
 :::
 :::
 

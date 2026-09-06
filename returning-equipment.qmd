@@ -8,12 +8,10 @@ We will be in touch to arrange the return with you — you do not need to work o
 
 ## Items to return
 
-Every item below goes back. If anything is missing or broken, post the rest anyway and tell us — you will not be charged for it.
+Every item below goes back. If anything is missing or broken, please inform us.
 
 ::: {.items}
 ![Temperature wall sensor](images/temp-sensor.png)
-
-![Spare battery](images/temp-spare-battery.png)
 
 ![Temperature base station](images/temp-base-station.png)
 
@@ -23,7 +21,7 @@ Every item below goes back. If anything is missing or broken, post the rest anyw
 
 ![Network cable](images/temp-network-cable.png)
 
-![Temperature gauge](images/temp-gauge.png)
+![Water tank temperature sensor](images/watertank-sensor.png)
 
 ![Fitbit Inspire 3](images/fitbit-tracker.png)
 
@@ -37,6 +35,10 @@ Every item below goes back. If anything is missing or broken, post the rest anyw
 :::
 
 ## Part 1 · Getting the equipment ready
+
+**Watch how the sticky strips come off the wall:**
+
+{{< video https://www.youtube.com/embed/lINsiyOTr2k >}}
 
 ::: {.step}
 ::: {.num}
@@ -59,6 +61,8 @@ The sensor, the holder and both strips are off the wall.
 ![](images/return-step1a-sensor.png)
 
 ![](images/return-step1b-tabs.png)
+
+![](images/return-step1-photo.png)
 :::
 :::
 
@@ -67,18 +71,20 @@ The sensor, the holder and both strips are off the wall.
 2
 :::
 ::: {.text}
-### Unplug the base station
+### Unplug the base station and all of its cables
 
-Switch the wall socket off first, then unplug the power adapter.
+Switch the wall socket off first, then unplug the power adapter from the wall.
 
-Unplug the network cable from the back of your router and from the base station, and unplug the base station's charging cable from the adapter. Leave any of your own cables exactly where they are.
+Unplug the network cable from the back of your router and from the base station. Then unplug the base station's charging cable from the power adapter.
+
+Four things go back: the base station, the network cable, the charging cable and the power adapter. Leave any of your own cables exactly where they are.
 
 ::: {.worked}
-Your router is left with only its own cables plugged in.
+You have all four pieces together, and your router is left with only its own cables.
 :::
 :::
 ::: {.pic}
-![](images/return-step2-unplug.png)
+![](images/return-step2-photo.png)
 :::
 :::
 
@@ -87,18 +93,24 @@ Your router is left with only its own cables plugged in.
 3
 :::
 ::: {.text}
-### Take the gauge out of the mattress pod
+### Take the sensor out of the water tank
 
-The small temperature gauge was already fitted when the pod arrived. It sits in the filling area.
+The small water tank temperature sensor was already fitted when the pod arrived. It sits in the filling area of the water tank.
 
 Lift it out and set it aside. Nothing needs to be unplugged or switched off.
 
+Check the silvery temperature sensor is still attached. If it is not, tip the water out of the tank, turn the unit over and let the sensor fall out. Pat it dry before it goes in the bag.
+
 ::: {.worked}
-The gauge is out of the pod and undamaged.
+The sensor is out of the water tank and undamaged.
 :::
 :::
 ::: {.pic}
 ![](images/return-step3-gauge.png)
+
+![](images/return-step3-tank1.png)
+
+![](images/return-step3-tank2.png)
 :::
 :::
 
@@ -113,16 +125,16 @@ Take the Fitbit off your wrist.
 
 Open the Google Health app on your phone one last time, with the tracker still beside you, and leave it open for a minute. This lets your last few days of readings reach us.
 
-Then sign out of the study account in the app. Once you are signed out you can delete the app from your phone if you like.
+Then sign out of your Google account in the app. Once you are signed out you can delete the app from your phone if you like.
 
-Collect the charging cable and the band extender.
+Four things go back: the Fitbit tracker, its charging cable, its power adapter and the band extender.
 
 ::: {.worked}
-You are signed out of the app and everything on the list is together in one place.
+You are signed out of the app and all four pieces are together in one place.
 :::
 :::
 ::: {.pic}
-![](images/return-step4-fitbit.png)
+![](images/return-step4-photo.png)
 :::
 :::
 
@@ -177,7 +189,7 @@ The bag is sealed shut and the address label is clearly visible.
 
 Hand the bag over at the counter of any Australia Post office. Postage is already paid, so there is nothing to buy.
 
-Please post it within one to two weeks of the study finishing. We will contact you at the end of the study to arrange all of this with you.
+Please post it within one to two weeks of the study finishing. We will contact you at the end of the study to arrange all of this with you and make sure everything has gone smoothly.
 
 ::: {.worked}
 The bag has been handed over at the counter.
@@ -193,9 +205,9 @@ The bag has been handed over at the counter.
 | If this happens | Try this |
 |---|---|
 | I cannot find the postage bag | Call us and we will post you another one. Please do not pay for your own postage. |
-| Something is missing or broken | Post the rest of the equipment anyway and let us know what is missing. You will not be charged. |
-| A strip snapped before it released | Take hold of what is left of the tab and keep pulling slowly straight down the wall. If there is no tab left to grip, work a fingernail behind the holder and pull it down, not out. |
-| I cannot get to a post office | Call us — we can arrange to collect the equipment from you instead. |
+| Something is missing or broken | Post the rest of the equipment anyway and let us know what is missing. |
+| A strip snapped before it released | Take hold of what is left of the tab and keep pulling slowly straight down the wall. If there is no tab left to grip, slide dental floss down behind the holder to cut the strip away from the wall. |
+| I cannot get to a post office | Call us — we can arrange another way for you to get the equipment back to us. |
 
 : {.trouble}
 

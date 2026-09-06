@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 26, 2026</p>
+      <p class="date-modified">September 7, 2026</p>
     </div>
   </div>
     
@@ -242,8 +242,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-body-container callout-body">
 <ul>
 <li>A <strong>Fitbit Inspire 3</strong> tracker, charging cable, power adapter and a larger band</li>
-<li>A <strong>bedroom temperature sensor</strong> with its base station, cables and a spare battery</li>
-<li>A <strong>mattress topper</strong> (the Kiva Circadian Sleep Pod®) with its control unit — this arrives separately, in summer, when we tell you it is time</li>
+<li>A <strong>bedroom temperature sensor</strong> with its base station and cables</li>
+<li>A <strong>mattress topper</strong> (the Kiva Circadian Sleep Pod®) with its control unit — this arrives separately, closer to summer, when we tell you it is time</li>
 </ul>
 </div>
 </div>
@@ -260,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>As soon as your pack arrives</td>
-<td>Set up the Fitbit and wear it every night</td>
+<td>Set up the Fitbit, email us the account you used, and wear it every night</td>
 <td><a href="./fitbit.html">Fitbit set-up</a></td>
 </tr>
 <tr class="even">
@@ -284,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="a-few-things-that-matter-for-the-whole-study" class="level2">
 <h2 class="anchored" data-anchor-id="a-few-things-that-matter-for-the-whole-study">A few things that matter for the whole study</h2>
 <ul>
-<li><strong>Keep the Google Health app installed and stay signed in</strong> with the study login. If you sign out, we stop receiving your readings.</li>
+<li><strong>Keep the Google Health app installed and stay signed in</strong> with the same Google account for the whole study, and <strong>email us that account’s address</strong> as soon as your Fitbit is connected. If you sign out or the account changes, we stop receiving your readings.</li>
 <li><strong>Leave the base station plugged in and switched on</strong>, day and night.</li>
 <li><strong>Charge the Fitbit during the day</strong>, not overnight, so it is on your wrist while you sleep.</li>
 </ul>
@@ -721,10 +721,32 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Last updated August 26, 2026</p>
+<p>Last updated September 7, 2026</p>
 </div>
   </div>
 </footer>
+<script>
+// Contact details are stored encoded and only assembled when a person
+// taps the button, so email-harvesting bots reading the page source
+// don't find them.
+function revealContact(btn){
+  var d = btn.dataset;
+  var box = btn.nextElementSibling;
+  var html = "";
+  if (d.n) { html += "<strong>" + atob(d.n) + "</strong><br>"; }
+  if (d.p) {
+    var ph = atob(d.p);
+    html += "Phone: <a href='tel:" + ph.replace(/\s/g,"") + "'>" + ph + "</a><br>";
+  }
+  if (d.e) {
+    var em = atob(d.e);
+    html += "Email: <a href='mailto:" + em + "'>" + em + "</a>";
+  }
+  box.innerHTML = html;
+  box.hidden = false;
+  btn.remove();
+}
+</script>
 
 
 

@@ -219,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 26, 2026</p>
+      <p class="date-modified">September 7, 2026</p>
     </div>
   </div>
     
@@ -240,12 +240,8 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Only set up the mattress topper <strong>after the research team has called to tell you it is time</strong>. It arrives separately from the rest of your equipment.</p>
+<p>Only set up the mattress topper <strong>after the research team has called to tell you it is time</strong>. It arrives separately from the rest of your equipment, closer to summer. These instructions are still being finalised, and the printed booklet in the topper’s box will be the final version.</p>
 </div>
-</div>
-<div class="video-placeholder">
-<p><strong>Video: Setting up the mattress topper (coming soon)</strong></p>
-<!--  -->
 </div>
 <section id="before-you-begin-items-required" class="level2">
 <h2 class="anchored" data-anchor-id="before-you-begin-items-required">Before you begin — items required</h2>
@@ -280,6 +276,8 @@ Note
 </section>
 <section id="part-1-setting-up-the-topper" class="level2">
 <h2 class="anchored" data-anchor-id="part-1-setting-up-the-topper">Part 1 · Setting up the topper</h2>
+<p><strong>Watch a short video of these steps:</strong></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yTmGs2Mlupg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="step">
 <div class="num">
 <p>1</p>
@@ -295,6 +293,7 @@ Note
 </section>
 <div class="pic">
 <p><img src="images/mattress-step1-bed.png" class="img-fluid"></p>
+<p><img src="images/mattress-step1-photo.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="step">
@@ -371,14 +370,13 @@ Note
 <section id="set-the-temperature" class="level3 text">
 <h3 class="anchored" data-anchor-id="set-the-temperature">Set the temperature</h3>
 <p>Use the two arrow buttons on the top of the control unit to set the temperature. The up arrow makes the bed warmer, the down arrow makes it cooler.</p>
-<p>We suggest starting somewhere between 16 and 20 degrees, but set it to whatever feels comfortable to you.</p>
-<p>Then make the bed as usual: waterproof protector over the topper, then your sheet on top.</p>
+<p>Then make the bed as usual, with your sheet over the topper.</p>
 <div class="worked">
 <p>The display shows the temperature you set.</p>
 </div>
 </section>
 <div class="pic">
-<p><img src="images/mattress-step6-temp.png" class="img-fluid"></p>
+<p><img src="images/mattress-step6-temp12.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -398,6 +396,8 @@ Important
 <section id="part-2-topping-up-the-water" class="level2">
 <h2 class="anchored" data-anchor-id="part-2-topping-up-the-water">Part 2 · Topping up the water</h2>
 <p>The topper uses a little water over time, so the level in the tank slowly drops. The control unit tells you when it needs topping up.</p>
+<p><strong>Watch how it is done</strong> (the top-up is at 26 seconds):</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yTmGs2Mlupg?start=26" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="step">
 <div class="num">
 <p>7</p>
@@ -492,7 +492,10 @@ Important
 </div>
 <div class="callout-body-container callout-body">
 <p>Please call us — we would much rather help than have you guess.</p>
-<p><strong>Study contact:</strong> [NAME]<br> <strong>Phone:</strong> [PHONE NUMBER]<br> <strong>Email:</strong> <a href="mailto:a.bach@griffith.edu.au">a.bach@griffith.edu.au</a><br> <strong>Available:</strong> [DAYS AND HOURS]</p>
+<div class="contact-reveal">
+<button onclick="revealContact(this)" data-n="RHIgQWFyb24gQmFjaA==" data-p="MDQ4NSA4MzUgMjM1" data-e="YS5iYWNoQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
+<div class="contact-details" hidden=""></div>
+</div>
 </div>
 </div>
 
@@ -927,10 +930,32 @@ Important
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Last updated August 26, 2026</p>
+<p>Last updated September 7, 2026</p>
 </div>
   </div>
 </footer>
+<script>
+// Contact details are stored encoded and only assembled when a person
+// taps the button, so email-harvesting bots reading the page source
+// don't find them.
+function revealContact(btn){
+  var d = btn.dataset;
+  var box = btn.nextElementSibling;
+  var html = "";
+  if (d.n) { html += "<strong>" + atob(d.n) + "</strong><br>"; }
+  if (d.p) {
+    var ph = atob(d.p);
+    html += "Phone: <a href='tel:" + ph.replace(/\s/g,"") + "'>" + ph + "</a><br>";
+  }
+  if (d.e) {
+    var em = atob(d.e);
+    html += "Email: <a href='mailto:" + em + "'>" + em + "</a>";
+  }
+  box.innerHTML = html;
+  box.hidden = false;
+  btn.remove();
+}
+</script>
 
 
 

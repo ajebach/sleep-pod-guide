@@ -4,14 +4,6 @@ subtitle: "Activity and sleep measurements"
 date-modified: last-modified
 ---
 
-::: {.video-placeholder}
-**Video: Setting up your Fitbit (coming soon)**
-
-<!-- When the video is ready, delete the placeholder and use:
-{{< video https://youtu.be/XXXXXXXX >}}
--->
-:::
-
 ## Before you begin — items required
 
 These items are in your pack. Check each one is there. If anything is missing, call us before you start.
@@ -27,6 +19,10 @@ These items are in your pack. Check each one is there. If anything is missing, c
 :::
 
 You will also need your own mobile phone, and the Wi-Fi or mobile data you normally use.
+
+::: {.callout-note}
+If you already own a Fitbit, you are welcome to wear your own instead of the one we sent. If you do, please tell us the email address that Fitbit is signed in with, so your readings reach us.
+:::
 
 ## Part 1 · Set up the app and connect your Fitbit
 
@@ -59,6 +55,8 @@ The app appears on your phone screen with a heart-shaped icon.
 
 Put the Fitbit on its charger for a few minutes before you start.
 
+If you are not sure how to put it on the charger, [Part 3 of this guide](#part-3-charging-the-fitbit) (steps 12 and 13) shows you how.
+
 To turn it on, squeeze both sides of the tracker at once, or tap the screen firmly twice.
 
 ::: {.worked}
@@ -75,14 +73,14 @@ The screen lights up.
 3
 :::
 ::: {.text}
-### Sign in with the study login
+### Sign in to the app
 
-Open the app and sign in using the email address and password printed in your welcome pack.
+Open the app and sign in with a Google account. You can use one you already have, or make a new one.
 
-**Please do not use your own Google or Gmail account.** The study login is what sends your readings to us. If the app signs you in automatically with your own account, sign out first.
+**Use the same account for the whole study.** The account you sign in with is what sends your readings to us. Keep a note of which one you used — we will ask you for it in Step 8.
 
 ::: {.worked}
-The email on screen matches the one in your welcome pack.
+You are signed in and the app opens on its main screen.
 :::
 :::
 ::: {.pic}
@@ -115,18 +113,95 @@ You can see the words *Add connections* on the screen.
 5
 :::
 ::: {.text}
-### Follow the prompts on screen
+### Choose your device
 
-The app will guide you through the last few steps. <mark>[DESCRIBE THE REMAINING PROMPTS — e.g. choose your device, allow Bluetooth, wait for the 4-digit code to appear on the tracker and type it in]</mark>
+Choose **Inspire 3** from the list of devices. Allow Bluetooth when the app asks. On an Android phone, also allow location and nearby devices.
 
-Keep the Fitbit close to your phone until the app says it is connected.
+::: {.worked}
+The app starts looking for your tracker.
+:::
+:::
+::: {.pic}
+![](images/fitbit-step5-choose.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+6
+:::
+::: {.text}
+### Enter the code from the Fitbit
+
+Leave the Fitbit on its charger and close to your phone while the app looks for it. When a four-digit code appears on the Fitbit screen, type it into the app.
+
+The app may then install an update. This can take a few minutes — keep the Fitbit beside your phone until it finishes.
+
+::: {.worked}
+The app accepts the code and moves on.
+:::
+:::
+::: {.pic}
+![](images/fitbit-step6-code.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+7
+:::
+::: {.text}
+### Answer the questions
+
+The app will ask for your height, weight and sex. It uses these to work out distance and calories.
+
+It may also offer to set up goals, notifications and a Premium trial. Fill these in or skip them as you like.
 
 ::: {.worked}
 The app shows your Fitbit as connected.
 :::
 :::
 ::: {.pic}
-![](images/fitbit-step5-code.png)
+![](images/fitbit-step7-questions.png)
+:::
+:::
+
+::: {.step}
+::: {.num}
+8
+:::
+::: {.text}
+### Email us straight away
+
+**Your readings will not reach us until you do this.**
+
+Send us an email with the address of the Google account you signed in with. Please do this as soon as the app says your Fitbit is connected, not later.
+
+```{=html}
+<div class="contact-reveal">
+<button onclick="revealContact(this)"
+  data-e="Zi5vY29ubm9yQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show the email address</button>
+<div class="contact-details" hidden></div>
+</div>
+```
+
+If you have any further questions about setting up the Fitbit, please contact Dr Fergus O'Connor:
+
+```{=html}
+<div class="contact-reveal">
+<button onclick="revealContact(this)"
+  data-n="RHIgRmVyZ3VzIE8nQ29ubm9y"
+  data-p="MDQxMiAwMzIgMjY2">Tap to show the phone number</button>
+<div class="contact-details" hidden></div>
+</div>
+```
+
+::: {.worked}
+You have sent us the email.
+:::
+:::
+::: {.pic}
+![](images/fitbit-step8-email.png)
 :::
 :::
 
@@ -138,9 +213,13 @@ Keep the app installed and stay signed in for the whole study. If you sign out o
 
 Only do this if the band that came fitted is too tight. Otherwise skip to Part 3.
 
+**Watch how it is done:**
+
+{{< video https://www.youtube.com/embed/XAX9pXHa9ic >}}
+
 ::: {.step}
 ::: {.num}
-6
+9
 :::
 ::: {.text}
 ### Press the small pin in
@@ -156,7 +235,7 @@ At the end of the band nearest the top, there is a small pin set into the band. 
 
 ::: {.step}
 ::: {.num}
-7
+10
 :::
 ::: {.text}
 ### Lift that end of the band away
@@ -176,7 +255,7 @@ The band comes free of the tracker.
 
 ::: {.step}
 ::: {.num}
-8
+11
 :::
 ::: {.text}
 ### Fit the new band
@@ -200,9 +279,13 @@ Charge the Fitbit every few days, or whenever the app tells you it is low or you
 
 Charge it during the day rather than overnight, so it is on your wrist while you sleep. A good time is while you are in the shower, or while you are sitting down reading or working — put it on the charger, then straight back on your wrist afterwards.
 
+**Watch how it is done:**
+
+{{< video https://www.youtube.com/embed/AeE6hPGE7Kc >}}
+
 ::: {.step}
 ::: {.num}
-9
+12
 :::
 ::: {.text}
 ### Line up the gold contacts
@@ -222,7 +305,7 @@ The gold contacts on the tracker are facing the gold pins in the charger.
 
 ::: {.step}
 ::: {.num}
-10
+13
 :::
 ::: {.text}
 ### Clip the tracker into the charger
@@ -246,7 +329,7 @@ A battery symbol appears on the tracker screen.
 |---|---|
 | The screen will not turn on | Put it on the charger for 10 minutes, then squeeze both sides or tap the screen firmly twice. |
 | I cannot find Google Health in the store | Search for the exact words *Google Health*. The publisher is listed as Google. Do not download an app called Fitbit. |
-| The app signed me in with my own account | Sign out, then sign back in with the email and password from your welcome pack. |
+| I am not sure which account I used | Open the app and tap your profile to see the email you are signed in with. Tell us if it has changed. |
 | The band feels too tight or leaves a mark | Loosen it by one hole. If it is still tight, fit the larger band using Part 2. |
 | The app says my Fitbit is not connected | Keep your phone near the tracker, check Bluetooth is switched on, then open the app and wait a minute. |
 

@@ -47,3 +47,27 @@ format:
     include-in-header:
       text: |
         <meta name="robots" content="noindex">
+    include-after-body:
+      text: |
+        <script>
+        // Contact details are stored encoded and only assembled when a person
+        // taps the button, so email-harvesting bots reading the page source
+        // don't find them.
+        function revealContact(btn){
+          var d = btn.dataset;
+          var box = btn.nextElementSibling;
+          var html = "";
+          if (d.n) { html += "<strong>" + atob(d.n) + "</strong><br>"; }
+          if (d.p) {
+            var ph = atob(d.p);
+            html += "Phone: <a href='tel:" + ph.replace(/\s/g,"") + "'>" + ph + "</a><br>";
+          }
+          if (d.e) {
+            var em = atob(d.e);
+            html += "Email: <a href='mailto:" + em + "'>" + em + "</a>";
+          }
+          box.innerHTML = html;
+          box.hidden = false;
+          btn.remove();
+        }
+        </script>

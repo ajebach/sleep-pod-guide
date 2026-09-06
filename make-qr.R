@@ -2,7 +2,7 @@
 # install.packages("qrcode")   # run once
 library(qrcode)
 
-url <- "https://YOUR-GITHUB-USERNAME.github.io/sleep-pod-guide/"
+url <- "https://ajebach.github.io/sleep-pod-guide/"
 
 qr <- qr_code(url, ecl = "H")   # H = highest error correction, survives print scuffs
 png("qr-sleep-pod-guide.png", width = 1200, height = 1200)

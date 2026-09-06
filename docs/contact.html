@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 26, 2026</p>
+      <p class="date-modified">September 7, 2026</p>
     </div>
   </div>
     
@@ -218,26 +218,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Please call us — we would much rather help than have you guess.</p>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Study contact</strong></td>
-<td>[NAME]</td>
-</tr>
-<tr class="even">
-<td><strong>Phone</strong></td>
-<td>[PHONE NUMBER]</td>
-</tr>
-<tr class="odd">
-<td><strong>Email</strong></td>
-<td><a href="mailto:a.bach@griffith.edu.au">a.bach@griffith.edu.au</a></td>
-</tr>
-<tr class="even">
-<td><strong>Available</strong></td>
-<td>[DAYS AND HOURS]</td>
-</tr>
-</tbody>
-</table>
+<div class="contact-reveal">
+<button onclick="revealContact(this)" data-n="RHIgQWFyb24gQmFjaA==" data-p="MDQ4NSA4MzUgMjM1" data-e="YS5iYWNoQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
+<div class="contact-details" hidden=""></div>
+</div>
+<p>For questions about setting up the Fitbit specifically:</p>
+<div class="contact-reveal">
+<button onclick="revealContact(this)" data-n="RHIgRmVyZ3VzIE8nQ29ubm9y" data-p="MDQxMiAwMzIgMjY2" data-e="Zi5vY29ubm9yQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
+<div class="contact-details" hidden=""></div>
+</div>
 <section id="about-the-study" class="level2">
 <h2 class="anchored" data-anchor-id="about-the-study">About the study</h2>
 <p><em>Can a mattress topper preserve nocturnal autonomic function in older adults during summer? A randomised crossover trial</em> is being conducted by Griffith University and has been approved by the Griffith University Human Research Ethics Committee (GU Ref No: HREC/2026/0662).</p>
@@ -684,10 +673,32 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Last updated August 26, 2026</p>
+<p>Last updated September 7, 2026</p>
 </div>
   </div>
 </footer>
+<script>
+// Contact details are stored encoded and only assembled when a person
+// taps the button, so email-harvesting bots reading the page source
+// don't find them.
+function revealContact(btn){
+  var d = btn.dataset;
+  var box = btn.nextElementSibling;
+  var html = "";
+  if (d.n) { html += "<strong>" + atob(d.n) + "</strong><br>"; }
+  if (d.p) {
+    var ph = atob(d.p);
+    html += "Phone: <a href='tel:" + ph.replace(/\s/g,"") + "'>" + ph + "</a><br>";
+  }
+  if (d.e) {
+    var em = atob(d.e);
+    html += "Email: <a href='mailto:" + em + "'>" + em + "</a>";
+  }
+  box.innerHTML = html;
+  box.hidden = false;
+  btn.remove();
+}
+</script>
 
 
 

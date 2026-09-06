@@ -10,22 +10,22 @@ This website has the same instructions as the printed booklets in your pack, plu
 
 ::: {.callout-note title="What is in your pack"}
 - A **Fitbit Inspire 3** tracker, charging cable, power adapter and a larger band
-- A **bedroom temperature sensor** with its base station, cables and a spare battery
-- A **mattress topper** (the Kiva Circadian Sleep Pod®) with its control unit — this arrives separately, in summer, when we tell you it is time
+- A **bedroom temperature sensor** with its base station and cables
+- A **mattress topper** (the Kiva Circadian Sleep Pod®) with its control unit — this arrives separately, closer to summer, when we tell you it is time
 :::
 
 ## What to do, and when
 
 | When | What | Guide |
 |------|------|-------|
-| As soon as your pack arrives | Set up the Fitbit and wear it every night | [Fitbit set-up](fitbit.qmd) |
+| As soon as your pack arrives | Set up the Fitbit, email us the account you used, and wear it every night | [Fitbit set-up](fitbit.qmd) |
 | As soon as your pack arrives | Connect the base station and stick the sensor on your bedroom wall | [Temperature sensor set-up](temperature-sensor.qmd) |
 | In summer, when we call you | Fit the mattress topper to your bed | [Mattress topper set-up](mattress-topper.qmd) |
 | When we tell you the study has finished | Post the equipment back to us | [Returning your equipment](returning-equipment.qmd) |
 
 ## A few things that matter for the whole study
 
-- **Keep the Google Health app installed and stay signed in** with the study login. If you sign out, we stop receiving your readings.
+- **Keep the Google Health app installed and stay signed in** with the same Google account for the whole study, and **email us that account's address** as soon as your Fitbit is connected. If you sign out or the account changes, we stop receiving your readings.
 - **Leave the base station plugged in and switched on**, day and night.
 - **Charge the Fitbit during the day**, not overnight, so it is on your wrist while you sleep.
 

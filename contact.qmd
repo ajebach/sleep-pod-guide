@@ -6,12 +6,27 @@ toc: false
 
 Please call us — we would much rather help than have you guess.
 
-| | |
-|---|---|
-| **Study contact** | [NAME] |
-| **Phone** | [PHONE NUMBER] |
-| **Email** | [a.bach@griffith.edu.au](mailto:a.bach@griffith.edu.au) |
-| **Available** | [DAYS AND HOURS] |
+```{=html}
+<div class="contact-reveal">
+<button onclick="revealContact(this)"
+  data-n="RHIgQWFyb24gQmFjaA=="
+  data-p="MDQ4NSA4MzUgMjM1"
+  data-e="YS5iYWNoQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
+<div class="contact-details" hidden></div>
+</div>
+```
+
+For questions about setting up the Fitbit specifically:
+
+```{=html}
+<div class="contact-reveal">
+<button onclick="revealContact(this)"
+  data-n="RHIgRmVyZ3VzIE8nQ29ubm9y"
+  data-p="MDQxMiAwMzIgMjY2"
+  data-e="Zi5vY29ubm9yQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
+<div class="contact-details" hidden></div>
+</div>
+```
 
 ## About the study
 
