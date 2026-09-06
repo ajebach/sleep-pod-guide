@@ -6,22 +6,22 @@ toc: false
 
 Please call us — we would much rather help than have you guess.
 
+**Study contact: Dr Aaron Bach**
+
 ```{=html}
 <div class="contact-reveal">
 <button onclick="revealContact(this)"
-  data-n="RHIgQWFyb24gQmFjaA=="
   data-p="MDQ4NSA4MzUgMjM1"
   data-e="YS5iYWNoQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
 <div class="contact-details" hidden></div>
 </div>
 ```
 
-For questions about setting up the Fitbit specifically:
+**For questions about setting up the Fitbit: Dr Fergus O'Connor**
 
 ```{=html}
 <div class="contact-reveal">
 <button onclick="revealContact(this)"
-  data-n="RHIgRmVyZ3VzIE8nQ29ubm9y"
   data-p="MDQxMiAwMzIgMjY2"
   data-e="Zi5vY29ubm9yQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
 <div class="contact-details" hidden></div>

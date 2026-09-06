@@ -1,10 +1,11 @@
 ::: {.callout-tip title="Need a hand?"}
 Please call us — we would much rather help than have you guess.
 
+**Study contact: Dr Aaron Bach**
+
 ```{=html}
 <div class="contact-reveal">
 <button onclick="revealContact(this)"
-  data-n="RHIgQWFyb24gQmFjaA=="
   data-p="MDQ4NSA4MzUgMjM1"
   data-e="YS5iYWNoQGdyaWZmaXRoLmVkdS5hdQ==">Tap to show phone number and email</button>
 <div class="contact-details" hidden></div>
